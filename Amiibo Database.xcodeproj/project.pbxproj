@@ -90,8 +90,8 @@
 				4200E4FC243A440F00165AFC /* SceneDelegate.swift */,
 				4200E500243A441000165AFC /* Assets.xcassets */,
 				4200E508243A441000165AFC /* Info.plist */,
-				4200E536243A530F00165AFC /* LaunchScreen.storyboard */,
 				4200E50E243A446E00165AFC /* SuperMario256.ttf */,
+				4200E536243A530F00165AFC /* LaunchScreen.storyboard */,
 				4200E502243A441000165AFC /* Preview Content */,
 			);
 			path = "Amiibo Database";
