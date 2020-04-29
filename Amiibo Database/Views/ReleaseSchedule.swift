@@ -33,14 +33,19 @@ struct ReleaseSchedule: View {
 }
 
 struct ReleaseSchedule_Previews: PreviewProvider {
-    static var previews: some View {
-        
-        Group {
-            ReleaseSchedule(country: "jp", release: Date())
-                .previewLayout(.sizeThatFits)
-            ReleaseSchedule(country: "na", release: Date())
-                .previewLayout(.sizeThatFits)
-        }
-        
-    }
+	static var previews: some View {
+		
+		Group {
+			HStack {
+				ReleaseSchedule(country: "au", release: Date())
+					.previewLayout(.sizeThatFits)
+				ReleaseSchedule(country: "eu", release: Date())
+					.previewLayout(.sizeThatFits)
+				ReleaseSchedule(country: "jp", release: Date())
+					.previewLayout(.sizeThatFits)
+				ReleaseSchedule(country: "na", release: Date())
+					.previewLayout(.sizeThatFits)
+			}
+		}
+	}
 }
