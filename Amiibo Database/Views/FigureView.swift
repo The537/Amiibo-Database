@@ -31,7 +31,7 @@ struct FigureView: View {
 			VStack  {
 				
 				Divider()
-				Text("Number of Amiibo: = \(networkingManager.amiiboList.amiibo.count)")
+				Text("Number of Figures: = \(networkingManager.amiiboList.amiibo.count)")
 					.fontWeight(.heavy)
 				Divider()
 				

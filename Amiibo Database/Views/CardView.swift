@@ -30,7 +30,7 @@ struct CardView: View {
 				VStack  {
 					
 					Divider()
-					Text("Number of Amiibo: = \(networkingManager.amiiboList.amiibo.count)")
+					Text("Number of Cards: = \(networkingManager.amiiboList.amiibo.count)")
 						.fontWeight(.heavy)
 					Divider()
 					
