@@ -30,7 +30,7 @@ struct YarnView: View {
 				VStack  {
 					
 					Divider()
-					Text("Number of Yarn Characters: = \(networkingManager.amiiboList.amiibo.count)")
+					Text("Number of Yarn Figures = \(networkingManager.amiiboList.amiibo.count)")
 						.fontWeight(.heavy)
 					Divider()
 					
