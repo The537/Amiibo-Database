@@ -80,7 +80,7 @@ struct FigureView: View {
 						}
 					}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 					.id(UUID())
-				}
+				}.listStyle(PlainListStyle()) 
 			}.navigationBarColor(.systemGreen)
 		}.onAppear( perform: networkingManager.loadFigure)
 	}

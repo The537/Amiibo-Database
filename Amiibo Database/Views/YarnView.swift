@@ -79,7 +79,7 @@ struct YarnView: View {
 							}
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 						.id(UUID())
-					}
+					}.listStyle(PlainListStyle()) 
 				}.navigationBarColor(.systemBlue)
 			}.onAppear( perform: networkingManager.loadYarn)
 		}

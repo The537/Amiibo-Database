@@ -79,7 +79,7 @@ struct CardView: View {
 							}
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 						.id(UUID())
-					}
+					}.listStyle(PlainListStyle()) 
 				}.navigationBarColor(.systemYellow)
 			}.onAppear( perform: networkingManager.loadCard)
 		}
