@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,14 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mario" translatesAutoresizingMaskIntoConstraints="NO" id="bU6-rL-Bs3">
-                                <rect key="frame" x="94" y="259.66666666666669" width="226" height="377.00000000000006"/>
+                                <rect key="frame" x="292" y="351.5" width="226" height="377"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amiibo Database" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="B2z-HM-hxF" userLabel="Amiibo Database">
-                                <rect key="frame" x="80" y="657.66666666666652" width="235" height="38.333333333333371"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amiibo Database" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="B2z-HM-hxF" userLabel="Amiibo Database">
+                                <rect key="frame" x="283" y="759" width="235" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -31,6 +30,8 @@
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="bU6-rL-Bs3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7oq-QR-ifD"/>
+                            <constraint firstItem="B2z-HM-hxF" firstAttribute="top" secondItem="bU6-rL-Bs3" secondAttribute="bottom" constant="30.5" id="ic0-3b-LI3"/>
+                            <constraint firstItem="B2z-HM-hxF" firstAttribute="trailing" secondItem="bU6-rL-Bs3" secondAttribute="trailing" id="tlh-t5-J9b"/>
                             <constraint firstItem="bU6-rL-Bs3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uFp-yw-JHA"/>
                         </constraints>
                     </view>
