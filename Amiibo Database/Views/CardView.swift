@@ -88,6 +88,6 @@ struct CardView: View {
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
-.previewInterfaceOrientation(.landscapeRight)
+.previewInterfaceOrientation(.portrait)
     }
 }

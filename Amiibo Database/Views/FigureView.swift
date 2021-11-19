@@ -88,7 +88,7 @@ struct FigureView: View {
 struct FigureView_Previews: PreviewProvider {
     static var previews: some View {
         FigureView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
-.previewInterfaceOrientation(.landscapeLeft)
+.previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
 struct NavigationBarModifier: ViewModifier {
