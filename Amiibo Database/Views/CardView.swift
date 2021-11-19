@@ -45,32 +45,32 @@ struct CardView: View {
 									HStack(alignment: .center) {
 										VStack(alignment: .trailing) {
 											Text("Amiibo Series:")
-												.font(.custom( "Arial", size: 12))
-												.fontWeight(.heavy)
+												.font(.custom( "Arial", size: 8))
+												 .fontWeight(.heavy)
 											Text("Game Series:")
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 											Text("Character:")
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 											Text("Type:")
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 											
 										}
 										
 										VStack(alignment: .leading) {
 											Text (amiibos.amiiboSeries)
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.gameSeries)
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.character)
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.type)
-												.font(.custom( "Arial", size: 12))
+												.font(.custom( "Arial", size: 8))
 												.fontWeight(.heavy)
 		
 										}
@@ -88,5 +88,6 @@ struct CardView: View {
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
+.previewInterfaceOrientation(.landscapeRight)
     }
 }
