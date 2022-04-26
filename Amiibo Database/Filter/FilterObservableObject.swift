@@ -9,6 +9,18 @@
 import Foundation
 
 class FilterObservableObject: ObservableObject {
+	@Published var searchTerm = ""
 	@Published var data: [AmiiboListEntry] = []
 	@Published var filterResults: [AmiiboListEntry] = []
+	
+	init() {
+		$searchTerm
+			.map { searchTerm in
+				self.data.filter { amiibo in
+					amiibo.character.lowercased().contains(searchTerm.lowercased())
+				}
+				
+			}
+			.assign(to: &$filterResults)
+	}
 }

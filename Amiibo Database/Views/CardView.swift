@@ -13,7 +13,7 @@ struct CardView: View {
 		@ObservedObject var urlImageModel: URlImageModel
 		@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
 	    @StateObject var oo = FilterObservableObject()
-	    @State private var searchTerm1 = ""
+	   
 	
 	 	init(urlString: String? ,amiibos: ReleaseDateModel) {
 			urlImageModel = URlImageModel(urlString: urlString)
@@ -80,17 +80,13 @@ struct CardView: View {
 								}
 							}
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
-							.animation(.default , value: searchTerm1)
-							//.searchable(text: $searchTerm1, placement: .navigationBarDrawer(displayMode: .automatic) )
+							.animation(.default , value: oo.searchTerm)
+							.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
 						.id(UUID())
 					}.listStyle(InsetGroupedListStyle()) 
 				}.navigationBarColor(.systemYellow)
 			}.onAppear( perform: networkingManager.loadCard)
-				.onChange(of: searchTerm1) { searchTerm1 in
-					oo.filterResults = oo.data.filter({amiibos in
-						amiibos.character.lowercased().contains(searchTerm1.lowercased())
-					})
-				}
+				
 		}
 	}
 

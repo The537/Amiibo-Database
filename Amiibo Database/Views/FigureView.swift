@@ -13,7 +13,6 @@ struct FigureView: View {
 	@ObservedObject var urlImageModel: URlImageModel
 	@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
 	@StateObject var oo = FilterObservableObject()
-	@State private var searchTerm = ""
 	
 	
 	init(urlString: String? ,amiibos: ReleaseDateModel) {
@@ -81,8 +80,8 @@ struct FigureView: View {
 							}
 						}
 					}.navigationBarTitle("Amiibo Database",displayMode:  .inline ).id(UUID())
-						.animation(.default , value: searchTerm)
-						.searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
+						.animation(.default , value: oo.searchTerm)
+						.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
 				}.listStyle(InsetGroupedListStyle())
 				
 			}.navigationBarColor(.systemGreen)
@@ -90,11 +89,11 @@ struct FigureView: View {
 			
 			
 		}.onAppear( perform: networkingManager.loadFigure)
-			.onChange(of: searchTerm) { searchTerm in
-				oo.filterResults = oo.data.filter({amiibos in
-					amiibos.character.lowercased().contains(searchTerm.lowercased())
-				})
-			}
+			.onChange(of: oo.searchTerm) { searchTerm in
+//				oo.filterResults = oo.data.filter({amiibos in
+//					amiibos.character.lowercased().contains(searchTerm.lowercased())
+//				})
+		}
 	}
 }
 struct FigureView_Previews: PreviewProvider {
