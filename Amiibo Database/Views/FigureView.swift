@@ -9,9 +9,12 @@
 import SwiftUI
 
 struct FigureView: View {
-    @ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
+	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 	@ObservedObject var urlImageModel: URlImageModel
 	@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
+	@StateObject var oo = FilterObservableObject()
+	@State private var searchTerm = ""
+	
 	
 	init(urlString: String? ,amiibos: ReleaseDateModel) {
 		urlImageModel = URlImageModel(urlString: urlString)
@@ -20,8 +23,7 @@ struct FigureView: View {
 		UISegmentedControl.appearance().selectedSegmentTintColor = .systemGreen
 		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
 		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.systemGreen], for: .normal)
-		UINavigationBar.appearance().titleTextAttributes = [
-		.font : UIFont(name: "SuperMarioGalaxy", size: 20)!]
+		UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "SuperMarioGalaxy", size: 20)!]
 	}
 	
 	var body: some View {
@@ -47,7 +49,7 @@ struct FigureView: View {
 									VStack(alignment: .trailing) {
 										Text("Amiibo Series:")
 											.font(.custom( "Arial", size: 8))
-											 .fontWeight(.heavy)
+											.fontWeight(.heavy)
 										Text("Game Series:")
 											.font(.custom( "Arial", size: 8))
 											.fontWeight(.heavy)
@@ -73,61 +75,32 @@ struct FigureView: View {
 										Text(amiibos.type)
 											.font(.custom( "Arial", size: 8))
 											.fontWeight(.heavy)
-	
+										
 									}
 								}
 							}
 						}
-					}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
-					.id(UUID())
-				}.listStyle(PlainListStyle()) 
+					}.navigationBarTitle("Amiibo Database",displayMode:  .inline ).id(UUID())
+						.animation(.default , value: searchTerm)
+						.searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
+				}.listStyle(InsetGroupedListStyle())
+				
 			}.navigationBarColor(.systemGreen)
+			
+			
+			
 		}.onAppear( perform: networkingManager.loadFigure)
+			.onChange(of: searchTerm) { searchTerm in
+				oo.filterResults = oo.data.filter({amiibos in
+					amiibos.character.lowercased().contains(searchTerm.lowercased())
+				})
+			}
 	}
 }
 struct FigureView_Previews: PreviewProvider {
-    static var previews: some View {
-        FigureView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
-.previewInterfaceOrientation(.portraitUpsideDown)
-    }
-}
-struct NavigationBarModifier: ViewModifier {
-	
-	var backgroundColor: UIColor?
-	
-	init( backgroundColor: UIColor?) {
-		self.backgroundColor = backgroundColor
-		let coloredAppearance = UINavigationBarAppearance()
-		coloredAppearance.configureWithTransparentBackground()
-		coloredAppearance.backgroundColor = .clear
-		coloredAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-		coloredAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-		
-		UINavigationBar.appearance().standardAppearance = coloredAppearance
-		UINavigationBar.appearance().compactAppearance = coloredAppearance
-		UINavigationBar.appearance().scrollEdgeAppearance = coloredAppearance
-		UINavigationBar.appearance().tintColor = .white
+	static var previews: some View {
+		FigureView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
 		
 	}
-	
-	func body(content: Content) -> some View {
-		ZStack{
-			content
-			VStack {
-				GeometryReader { geometry in
-					Color(self.backgroundColor ?? .clear)
-						.frame(height: geometry.safeAreaInsets.top)
-						.edgesIgnoringSafeArea(.top)
-					Spacer()
-				}
-			}
-		}
-	}
 }
-extension View {
-	
-	func navigationBarColor(_ backgroundColor: UIColor?) -> some View {
-		self.modifier(NavigationBarModifier(backgroundColor: backgroundColor))
-	}
-	
-}
+

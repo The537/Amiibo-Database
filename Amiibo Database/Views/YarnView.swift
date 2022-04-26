@@ -12,6 +12,9 @@ struct YarnView: View {
     @ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 		@ObservedObject var urlImageModel: URlImageModel
 		@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
+	   @StateObject var oo = FilterObservableObject()
+	   @State private var searchTerm2 = ""
+
 		
 		init(urlString: String? ,amiibos: ReleaseDateModel) {
 			urlImageModel = URlImageModel(urlString: urlString)
@@ -78,10 +81,17 @@ struct YarnView: View {
 								}
 							}
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
+							.animation(.default , value: searchTerm2)
+							//.searchable(text: $searchTerm2, placement: .navigationBarDrawer(displayMode: .automatic) )
 						.id(UUID())
-					}.listStyle(PlainListStyle()) 
+					}.listStyle(InsetGroupedListStyle()) 
 				}.navigationBarColor(.systemBlue)
 			}.onAppear( perform: networkingManager.loadYarn)
+				.onChange(of: searchTerm2) { searchTerm2 in
+					oo.filterResults = oo.data.filter({amiibos in
+						amiibos.character.lowercased().contains(searchTerm2.lowercased())
+					})
+				}
 		}
 	}
 
