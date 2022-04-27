@@ -81,7 +81,7 @@ struct YarnView: View {
 								}
 							}
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
-							.animation(.default , value: searchTerm2)
+							.animation(.default , value: oo.searchTerm)
 							.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
 						.id(UUID())
 					}.listStyle(InsetGroupedListStyle()) 
