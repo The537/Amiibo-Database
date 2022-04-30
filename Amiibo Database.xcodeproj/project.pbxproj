@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4200CA6E281628F50095F29C /* FilterObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200CA6D281628F50095F29C /* FilterObservableObject.swift */; };
 		4200E4FB243A440F00165AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200E4FA243A440F00165AFC /* AppDelegate.swift */; };
 		4200E4FD243A440F00165AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200E4FC243A440F00165AFC /* SceneDelegate.swift */; };
 		4200E4FF243A440F00165AFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4200E4FE243A440F00165AFC /* ContentView.swift */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4200CA6D281628F50095F29C /* FilterObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterObservableObject.swift; sourceTree = "<group>"; };
 		4200E4F7243A440F00165AFC /* Amiibo Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amiibo Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4200E4FA243A440F00165AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4200E4FC243A440F00165AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,14 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4200CA6C281628CB0095F29C /* Filter */ = {
-			isa = PBXGroup;
-			children = (
-				4200CA6D281628F50095F29C /* FilterObservableObject.swift */,
-			);
-			path = Filter;
-			sourceTree = "<group>";
-		};
 		4200E4EE243A440F00165AFC = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +90,6 @@
 				4200E50E243A446E00165AFC /* SuperMario256.ttf */,
 				4200E536243A530F00165AFC /* LaunchScreen.storyboard */,
 				4200E51D243A4D0200165AFC /* Constants */,
-				4200CA6C281628CB0095F29C /* Filter */,
 				4200E527243A4FD900165AFC /* Models */,
 				4200E524243A4E8D00165AFC /* Networking */,
 				4200E512243A45E600165AFC /* Views */,
@@ -240,7 +229,6 @@
 				4200E539243A55EF00165AFC /* NetworkingManager.swift in Sources */,
 				4200E51C243A4C9900165AFC /* Constants.swift in Sources */,
 				4200E52E243A4FF900165AFC /* ReleaseDateModel.swift in Sources */,
-				4200CA6E281628F50095F29C /* FilterObservableObject.swift in Sources */,
 				4200E52C243A4FF900165AFC /* Test.swift in Sources */,
 				4200E4FF243A440F00165AFC /* ContentView.swift in Sources */,
 				4200E516243A461700165AFC /* CardView.swift in Sources */,

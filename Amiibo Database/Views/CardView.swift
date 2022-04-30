@@ -12,8 +12,7 @@ struct CardView: View {
 		@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 		@ObservedObject var urlImageModel: URlImageModel
 		@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
-	    @StateObject var oo = FilterObservableObject()
-	   
+		@State private  var searchTerm = ""
 	
 	 	init(urlString: String? ,amiibos: ReleaseDateModel) {
 			urlImageModel = URlImageModel(urlString: urlString)
@@ -84,16 +83,16 @@ struct CardView: View {
 					}.listStyle(InsetGroupedListStyle()) 
 				}.navigationBarColor(.systemYellow)
 			}.onAppear( perform: networkingManager.loadCards)
-				.animation(.default , value: oo.searchTerm)
-				.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Search for a character" )
+				.animation(.default , value: searchTerm)
+				.searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Search for a character" )
 				
 		}
 	var filteredAmiibo: [AmiiboListEntry] {
-		if oo.searchTerm.isEmpty {
+		if searchTerm.isEmpty {
 			return networkingManager.amiiboList.amiibo
 		} else {
 			return networkingManager.amiiboList.amiibo.filter {
-				$0.character.localizedCaseInsensitiveContains(oo.searchTerm) }
+				$0.character.localizedCaseInsensitiveContains(searchTerm) }
 
 			}
 			

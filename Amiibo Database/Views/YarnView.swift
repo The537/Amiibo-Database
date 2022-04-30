@@ -12,7 +12,7 @@ struct YarnView: View {
     @ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 		@ObservedObject var urlImageModel: URlImageModel
 		@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
-	    @StateObject var oo = FilterObservableObject()
+
 	
 		init(urlString: String? ,amiibos: ReleaseDateModel) {
 			urlImageModel = URlImageModel(urlString: urlString)
@@ -31,13 +31,13 @@ struct YarnView: View {
 				VStack  {
 					
 					Divider()
-					Text("Number of Yarn Figures = \(filteredAmiibo.count)")
+					Text("Number of Yarn Figures = \(networkingManager.amiiboList.amiibo.count)")
 						.fontWeight(.heavy)
 					Divider()
 					
 					VStack {
 						
-						List(filteredAmiibo, id: \.tail ) { amiibos in
+						List(networkingManager.amiiboList.amiibo, id: \.tail ) { amiibos in
 							NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
 								
 								HStack {
@@ -83,19 +83,9 @@ struct YarnView: View {
 					}.listStyle(InsetGroupedListStyle()) 
 				}.navigationBarColor(.systemBlue)
 			}.onAppear( perform: networkingManager.loadYarn)
-				.animation(.default , value: oo.searchTerm)
-				.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Search for a character" )
+				
 		}
-	var filteredAmiibo: [AmiiboListEntry] {
-		if oo.searchTerm.isEmpty {
-			return networkingManager.amiiboList.amiibo
-		} else {
-			return networkingManager.amiiboList.amiibo.filter {
-				$0.character.localizedCaseInsensitiveContains(oo.searchTerm) }
-
-			}
-			
-		}
+	
 	}
 
 

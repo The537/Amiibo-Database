@@ -11,7 +11,7 @@ import UIKit
 
 struct ContentView: View {
 	init() {
-		UITabBar.appearance().backgroundColor = UIColor.clear
+		UITabBar.appearance().backgroundColor = UIColor.lightText
 	}
 	@State var selectedTab = 0
 	
