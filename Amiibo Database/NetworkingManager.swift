@@ -17,7 +17,7 @@ final class NetworkingManager: ObservableObject   {
 
 extension NetworkingManager {
 	
-	func loadFigure() {
+	func loadFigures() {
 		
 		guard let url = URL(string: "https://www.amiiboapi.com/api/amiibo/?type=figure") else {  return }
 		
@@ -31,7 +31,7 @@ extension NetworkingManager {
 			}
 		} .resume()
 	}
-	func loadCard() {
+	func loadCards() {
 		
 		guard let url = URL(string: "https://www.amiiboapi.com/api/amiibo/?type=card") else {  return }
 		

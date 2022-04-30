@@ -27,22 +27,22 @@ struct FigureView: View {
 	
 	var body: some View {
 		
-		NavigationView() {
+		NavigationView {
 			
 			VStack  {
 				
 				Divider()
-				Text("Number of Figures = \(networkingManager.amiiboList.amiibo.count)")
+				Text("Number of Figures = \(filteredAmiibo.count)")
 					.fontWeight(.heavy)
 				Divider()
 				
 				VStack {
 					
-					List(networkingManager.amiiboList.amiibo, id: \.tail ) { amiibos in
+					List(filteredAmiibo , id: \.tail ) { amiibos in
 						NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
 							
 							HStack {
-								
+
 								UrlImageView(urlString: amiibos.image)
 								HStack(alignment: .center) {
 									VStack(alignment: .trailing) {
@@ -58,9 +58,9 @@ struct FigureView: View {
 										Text("Type:")
 											.font(.custom( "Arial", size: 8))
 											.fontWeight(.heavy)
-										
+
 									}
-									
+
 									VStack(alignment: .leading) {
 										Text (amiibos.amiiboSeries)
 											.font(.custom( "Arial", size: 8))
@@ -74,27 +74,36 @@ struct FigureView: View {
 										Text(amiibos.type)
 											.font(.custom( "Arial", size: 8))
 											.fontWeight(.heavy)
-										
+
 									}
 								}
 							}
 						}
 					}.navigationBarTitle("Amiibo Database",displayMode:  .inline ).id(UUID())
 						.animation(.default , value: oo.searchTerm)
-						.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
+						.searchable(text: $oo.searchTerm,prompt: "Search for a character")
 				}.listStyle(InsetGroupedListStyle())
 				
 			}.navigationBarColor(.systemGreen)
 			
 			
 			
-		}.onAppear( perform: networkingManager.loadFigure)
-			.onChange(of: oo.searchTerm) { searchTerm in
-//				oo.filterResults = oo.data.filter({amiibos in
-//					amiibos.character.lowercased().contains(searchTerm.lowercased())
-//				})
-		}
+		}.onAppear( perform: networkingManager.loadFigures)
+	
+		
 	}
+	
+	var filteredAmiibo: [AmiiboListEntry] {
+		if oo.searchTerm.isEmpty {
+			return networkingManager.amiiboList.amiibo
+		} else {
+			return networkingManager.amiiboList.amiibo.filter {
+				$0.character.localizedCaseInsensitiveContains(oo.searchTerm) }
+
+			}
+			
+		}
+	
 }
 struct FigureView_Previews: PreviewProvider {
 	static var previews: some View {

@@ -1,5 +1,5 @@
 //
-//  AmiiboApiList.swift
+//  AmiiboAPIList.swift
 //  Amiibo
 //
 //  Created by Les Lariz on 2/21/20.

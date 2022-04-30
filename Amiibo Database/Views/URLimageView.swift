@@ -21,7 +21,7 @@ struct UrlImageView: View {
             .resizable()
             .scaledToFit()
 			.frame(width: 90, height: 90)
-			.aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fit/*@END_MENU_TOKEN@*/)
+			.aspectRatio(contentMode: .fit)
     }
     
     static var defaultImage = UIImage(named: "Mario")

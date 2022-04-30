@@ -27,18 +27,18 @@ struct CardView: View {
 		
 		var body: some View {
 			
-			NavigationView() {
+			NavigationView {
 				
 				VStack  {
 					
 					Divider()
-					Text("Number of Cards = \(networkingManager.amiiboList.amiibo.count)")
+					Text("Number of Cards = \(filteredAmiibo.count)")
 						.fontWeight(.heavy)
 					Divider()
 					
 					VStack {
 						
-						List(networkingManager.amiiboList.amiibo, id: \.tail ) { amiibos in
+						List(filteredAmiibo, id: \.tail ) { amiibos in
 							NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
 								
 								HStack {
@@ -80,13 +80,23 @@ struct CardView: View {
 								}
 							}
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
-							.animation(.default , value: oo.searchTerm)
-							.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic) )
 						.id(UUID())
 					}.listStyle(InsetGroupedListStyle()) 
 				}.navigationBarColor(.systemYellow)
-			}.onAppear( perform: networkingManager.loadCard)
+			}.onAppear( perform: networkingManager.loadCards)
+				.animation(.default , value: oo.searchTerm)
+				.searchable(text: $oo.searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Search for a character" )
 				
+		}
+	var filteredAmiibo: [AmiiboListEntry] {
+		if oo.searchTerm.isEmpty {
+			return networkingManager.amiiboList.amiibo
+		} else {
+			return networkingManager.amiiboList.amiibo.filter {
+				$0.character.localizedCaseInsensitiveContains(oo.searchTerm) }
+
+			}
+			
 		}
 	}
 
