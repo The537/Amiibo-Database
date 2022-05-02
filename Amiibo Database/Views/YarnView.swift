@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct YarnView: View {
-    @ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
+		@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
 		@ObservedObject var urlImageModel: URlImageModel
 		@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
 
@@ -31,7 +31,7 @@ struct YarnView: View {
 				VStack  {
 					
 					Divider()
-					Text("Number of Yarn Figures = \(networkingManager.amiiboList.amiibo.count)")
+					Text("Number of Yarn Figures = \(filteredAmiibo.count)")
 						.fontWeight(.heavy)
 					Divider()
 					
@@ -85,9 +85,10 @@ struct YarnView: View {
 			}.onAppear( perform: networkingManager.loadYarn)
 				
 		}
-	
+	var filteredAmiibo: [AmiiboListEntry] {
+		return networkingManager.amiiboList.amiibo
 	}
-
+}
 
 struct YarnView_Previews: PreviewProvider {
     static var previews: some View {
