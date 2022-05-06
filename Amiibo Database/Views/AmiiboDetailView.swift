@@ -38,40 +38,31 @@ struct AmiiboDetailView: View {
 						HStack {
 							VStack(alignment: .trailing) {
 								Text("Amiibo Series: =")
-									.font(.headline)
-									.fontWeight(.heavy)
+									.fontWeight(.heavy).font(.custom( "SuperMarioGalaxy", size: 16))
 								Text("Game Series: =")
-									.font(.headline)
-									.fontWeight(.heavy)
+									.fontWeight(.heavy).font(.custom( "SuperMarioGalaxy", size: 16))
 								Text("Character: =")
-									.font(.headline)
-									.fontWeight(.heavy)
+									.fontWeight(.heavy).font(.custom( "SuperMarioGalaxy", size: 16))
 									.multilineTextAlignment(.trailing)
 								Text("Type: =")
-									.font(.headline)
-									.fontWeight(.heavy)
+									.fontWeight(.heavy).font(.custom( "SuperMarioGalaxy", size: 16))
 			
 							}
 			
 							VStack(alignment: .leading) {
-								Text(amiibos.amiiboSeries)
-									.font(.headline)
+								Text(amiibos.amiiboSeries).font(.custom( "SuperMarioGalaxy", size: 16))
 									.fontWeight(.heavy)
-								Text(amiibos.gameSeries)
-									.font(.headline)
+								Text(amiibos.gameSeries).font(.custom( "SuperMarioGalaxy", size: 16))
 									.fontWeight(.heavy)
-								Text(amiibos.character)
-									.font(.headline)
-									.fontWeight(.heavy)
+								Text(amiibos.character).font(.custom( "SuperMarioGalaxy", size: 16))
+									.fontWeight(.heavy).font(.custom( "SuperMarioGalaxy", size: 16))
 								Text(amiibos.type)
-									.font(.headline)
-									.fontWeight(.heavy)
-			
+									.fontWeight(.heavy).font(.custom( "SuperMarioGalaxy", size: 16))
 							}
 						}
 			Divider()
 			Text("Release Dates")
-				.fontWeight(.heavy)
+			.font(.custom( "SuperMarioGalaxy", size: 16))
 			HStack {
 				
 				ReleaseSchedule(country: "au", release: self.amiibos.releaseAU)

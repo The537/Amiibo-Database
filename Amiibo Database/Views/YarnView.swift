@@ -46,32 +46,32 @@ struct YarnView: View {
 									HStack(alignment: .center) {
 										VStack(alignment: .trailing) {
 											Text("Amiibo Series:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												 .fontWeight(.heavy)
 											Text("Game Series:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text("Character:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text("Type:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											
 										}
 										
 										VStack(alignment: .leading) {
 											Text (amiibos.amiiboSeries)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.gameSeries)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.character)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.type)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 		
 										}
@@ -81,7 +81,7 @@ struct YarnView: View {
 						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 						.id(UUID())
 					}.listStyle(InsetGroupedListStyle()) 
-				}.navigationBarColor(.systemBlue)
+				}.navigationBarColor(.systemBlue)					
 			}.onAppear( perform: networkingManager.loadYarn)
 				
 		}

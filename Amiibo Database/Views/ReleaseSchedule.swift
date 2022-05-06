@@ -21,8 +21,7 @@ struct ReleaseSchedule: View {
             
             
             Text(releaseDate)
-				.font(.system(size: 12))
-				.fontWeight(.heavy)
+				.font(.custom( "SuperMarioGalaxy", size: 12))
 			Divider().frame(width: 80,height: 0)
 			Image(country)
 			.resizable()

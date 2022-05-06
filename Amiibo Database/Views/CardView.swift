@@ -46,32 +46,32 @@ struct CardView: View {
 									HStack(alignment: .center) {
 										VStack(alignment: .trailing) {
 											Text("Amiibo Series:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												 .fontWeight(.heavy)
 											Text("Game Series:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text("Character:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text("Type:")
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											
 										}
 										
 										VStack(alignment: .leading) {
 											Text (amiibos.amiiboSeries)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.gameSeries)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.character)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 											Text(amiibos.type)
-												.font(.custom( "Arial", size: 8))
+												.font(.custom( "SuperMarioGalaxy", size: 8))
 												.fontWeight(.heavy)
 		
 										}
@@ -84,7 +84,7 @@ struct CardView: View {
 				}.navigationBarColor(.systemYellow)
 			}.onAppear( perform: networkingManager.loadCards)
 				.animation(.default , value: searchTerm)
-				.searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Search for a character" )
+				.searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Filter by Character:" )
 				
 		}
 	var filteredAmiibo: [AmiiboListEntry] {

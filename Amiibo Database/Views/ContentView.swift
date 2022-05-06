@@ -18,13 +18,17 @@ struct ContentView: View {
 	var body: some View {
 		TabView(selection: $selectedTab) {
 			FigureView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1)).tabItem({
-				Text(Constants.TabBarText.Figure).font(.largeTitle)
+				Label("Figures", systemImage: "figure.wave.circle.fill")
+				
+				//Text(Constants.TabBarText.Figure).font(.custom( "Ariel", size: 18))
 			}).tag(0)
 			CardView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1)).tabItem({
-				Text(Constants.TabBarText.Card).font(.largeTitle)
+				Label("Cards", systemImage: "rectangle.on.rectangle.circle.fill")
+				//Text(Constants.TabBarText.Card).font(.custom( "Ariel", size: 18))
 			}).tag(1)
 			YarnView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1)).tabItem({
-				Text(Constants.TabBarText.Yarn).font(.largeTitle)
+				Label("Yarn", systemImage: "seal")
+				//Text(Constants.TabBarText.Yarn).font(.custom( "Ariel", size: 18))
 			}).tag(2)
 		}.accentColor(Color.green)
 	}

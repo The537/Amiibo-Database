@@ -46,41 +46,42 @@ struct FigureView: View {
 								HStack(alignment: .center) {
 									VStack(alignment: .trailing) {
 										Text("Amiibo Series:")
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 										Text("Game Series:")
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 										Text("Character:")
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 										Text("Type:")
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 
 									}
 
 									VStack(alignment: .leading) {
 										Text (amiibos.amiiboSeries)
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 										Text(amiibos.gameSeries)
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 										Text(amiibos.character)
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 										Text(amiibos.type)
-											.font(.custom( "Arial", size: 8))
+											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
 
 									}
 								}
 							}
 						}
-					}.navigationBarTitle("Amiibo Database",displayMode:  .inline ).id(UUID())
+					}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
+						.id(UUID())
 						.animation(.default , value: searchTerm)
-						.searchable(text: $searchTerm,prompt: "Search for a character")
+						.searchable(text: $searchTerm,prompt: "Filter by Character:")
 				}.listStyle(InsetGroupedListStyle())
 				
 			}.navigationBarColor(.systemGreen)

@@ -23,14 +23,36 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		let contentView = ContentView()
 
 		// Use a UIHostingController as window root view controller.
-		if let windowScene = scene as? UIWindowScene {
+		guard let windowScene = (scene as? UIWindowScene) else { return }
+	
+		// MARK: ADD THIS CODE BELOW TO YOUR SCENE DELEGATE.
+			
+			// TAB BAR BACKGROUND COLOR HERE.
+			UITabBar.appearance().barTintColor = UIColor.lightText
+			
+			// TAB BAR ICONS COLOR HERE.
+			UITabBar.appearance().tintColor = UIColor.blue
+			UITabBar.appearance().isTranslucent = true
+			
+			if #available(iOS 15.0, *) {
+				let appearance = UITabBarAppearance()
+				appearance.configureWithOpaqueBackground()
+				
+				// TAB BAR BACKGROUND COLOR HERE. (same as above)
+				appearance.backgroundColor = UIColor.white
+				UITabBar.appearance().standardAppearance = appearance
+				UITabBar.appearance().scrollEdgeAppearance = UITabBar.appearance().standardAppearance
+			}
+		
+
+		
 		    let window = UIWindow(windowScene: windowScene)
 		    window.rootViewController = UIHostingController(rootView: contentView)
 		    self.window = window
 		    window.makeKeyAndVisible()
 		}
 	}
-
+              
 	func sceneDidDisconnect(_ scene: UIScene) {
 		// Called as the scene is being released by the system.
 		// This occurs shortly after the scene enters the background, or when its session is discarded.
@@ -59,6 +81,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		// to restore the scene back to its current state.
 	}
 
-
-}
 
