@@ -367,6 +367,9 @@
 				DEVELOPMENT_TEAM = N3UFHUD83J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Amiibo Database/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Amiibo Database";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +392,9 @@
 				DEVELOPMENT_TEAM = N3UFHUD83J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Amiibo Database/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Amiibo Database";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
