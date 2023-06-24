@@ -1,0 +1,90 @@
+{
+  "" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master.dia",
+    "emit-module-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master-emit-module.dia",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master.swiftdeps"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/AppDelegate.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Constants/Constants.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/AmiiboAPIList.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/ReleaseDateModel.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/Test.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Test.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Test.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/Test.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/URLImageModel.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/URLImageModel.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/URLImageModel.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/URLImageModel.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/NetworkingManager.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/SceneDelegate.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/AmiiboDetailView.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/CardView.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/CardView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/CardView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/CardView.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/FigureView.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/ReleaseSchedule.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/URLimageView.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/URLimageView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/URLimageView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/URLimageView.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/YarnView.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.o"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

@@ -1,0 +1,37 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "6471c46dce7768ea149836fe2118f97863a7d885f491e6919528d134168f630f"
+build_start_time: [1695577408, 576831000]
+build_end_time: [1695577409, 960131000]
+inputs:
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/AppDelegate.swift"
+  : !dirty [1651791726, 0]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Constants/Constants.swift"
+  : !dirty [1651791712, 0]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Models/AmiiboAPIList.swift"
+  : !dirty [1687466109, 638025724]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Models/ReleaseDateModel.swift"
+  : !dirty [1695577030, 228473537]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Models/Test.swift"
+  : !dirty [1585009709, 888539791]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Models/URLImageModel.swift"
+  : !dirty [1583529274, 472133279]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/NetworkingManager.swift"
+  : !dirty [1687466109, 638467698]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/SceneDelegate.swift"
+  : !dirty [1651856019, 83454895]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/AmiiboDetailView.swift"
+  : !dirty [1695577408, 126765680]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/CardView.swift"
+  : !dirty [1695577408, 108542568]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/ContentView.swift"
+  : !dirty [1695172562, 89856977]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/FigureView.swift"
+  : !dirty [1695577408, 72770417]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/ReleaseSchedule.swift"
+  : !dirty [1651700298, 923382721]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/URLimageView.swift"
+  : !dirty [1695576732, 80584315]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/Amiibo Database/Views/YarnView.swift"
+  : !dirty [1687466109, 639020527]
+  ? "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les\u2019s iMac/Code/Amiibo Database/build/Amiibo Database.build/Release-iphonesimulator/Amiibo Database.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1695576165, 142571122]
