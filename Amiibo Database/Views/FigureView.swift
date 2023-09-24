@@ -2,7 +2,7 @@
 //  FigureView.swift
 //  Amiibo Database
 //
-//  Created by Les Lariz on 4/5/20.
+//  Created by Les Lariz on 4/5/2020.
 //  Copyright © 2020 Les R Lariz. All rights reserved.
 //
 

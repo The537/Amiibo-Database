@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMario</string>
+			<key>relativePath</key>
+			<string>./Mario.imageset</string>
+			<key>swiftSymbol</key>
+			<string>mario</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAu</string>
+			<key>relativePath</key>
+			<string>./au.imageset</string>
+			<key>swiftSymbol</key>
+			<string>au</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameEu</string>
+			<key>relativePath</key>
+			<string>./eu.imageset</string>
+			<key>swiftSymbol</key>
+			<string>eu</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameJp</string>
+			<key>relativePath</key>
+			<string>./jp.imageset</string>
+			<key>swiftSymbol</key>
+			<string>jp</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNa</string>
+			<key>relativePath</key>
+			<string>./na.imageset</string>
+			<key>swiftSymbol</key>
+			<string>na</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

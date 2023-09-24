@@ -1,0 +1,24 @@
+"/Users/lrlariz/Desktop/Amiibo-Database/Amiibo Database/Views/YarnView.swift":
+  object: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.o"
+  dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.d"
+  diagnostics: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.dia"
+  swift-dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.swiftdeps"
+  const-values: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.swiftconstvalues"
+"/Users/lrlariz/Desktop/Amiibo-Database/Amiibo Database/Views/ReleaseSchedule.swift":
+  swift-dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.swiftdeps"
+  object: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.o"
+  const-values: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.swiftconstvalues"
+  dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.d"
+  diagnostics: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.dia"
+"/Users/lrlariz/Desktop/Amiibo-Database/Amiibo Database/Views/FigureView.swift":
+  const-values: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.swiftconstvalues"
+  swift-dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.swiftdeps"
+  object: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.o"
+  diagnostics: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.dia"
+  dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.d"
+"/Users/lrlariz/Desktop/Amiibo-Database/Amiibo Database/AppDelegate.swift":
+  swift-dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  const-values: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.swiftconstvalues"
+  object: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.o"
+  dependencies: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.d"
+  diagnostics: "/Users/lrlariz/Desktop/Amiibo-Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.dia"

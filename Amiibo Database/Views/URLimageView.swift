@@ -2,7 +2,7 @@
 //  URLimageView.swift
 //  Amiibo
 //
-//  Created by Les Lariz on 2/25/20.
+//  Created by Les Lariz on 2/25/2020.
 //  Copyright © 2020 Les R Lariz. All rights reserved.
 //
 
