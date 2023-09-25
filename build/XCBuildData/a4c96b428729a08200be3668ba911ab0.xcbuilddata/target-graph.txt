@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'Amiibo Database' in project 'Amiibo Database' (no dependencies)

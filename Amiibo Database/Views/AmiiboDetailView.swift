@@ -12,14 +12,14 @@ import SwiftUI
 struct AmiiboDetailView: View {
 	
 	
-	@ObservedObject var networkingManager = NetworkingManager()
-	@ObservedObject var urlImageModel: URlImageModel
-	@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
+	var networkingManager = NetworkingManager()
+	var urlImageModel: URlImageModel
+	var amiibos = ReleaseDateModel(amiibo: amiibo1)
 	
 	
 	init(urlString: String? ,amiibos: ReleaseDateModel) {
 		urlImageModel = URlImageModel(urlString: urlString)
-		  self.amiibos = amiibos
+		self.amiibos = amiibos
 		
 	}
 	

@@ -9,11 +9,11 @@
 import Foundation
 import SwiftUI
 
-class URlImageModel: ObservableObject {
-	@ObservedObject var networkingManager = NetworkingManager()
-	@Published var image: UIImage?
-	@Published var urlString: String?
-	@Published var imageCache = ImageCache.getImageCache()
+@Observable class URlImageModel {
+	var networkingManager = NetworkingManager()
+	var image: UIImage?
+	var urlString: String?
+	var imageCache = ImageCache.getImageCache()
 	
 	init(urlString: String?) {
 		self.urlString = urlString

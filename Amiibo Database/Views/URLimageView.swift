@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct UrlImageView: View {
-     @ObservedObject var urlImageModel: URlImageModel
+      var urlImageModel: URlImageModel
 	   
 	   init(urlString: String?) {
 		   urlImageModel = URlImageModel(urlString: urlString)

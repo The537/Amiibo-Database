@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct FigureView: View {
-	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
-	@ObservedObject var urlImageModel: URlImageModel
-	@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
+	var networkingManager: NetworkingManager = NetworkingManager()
+	var urlImageModel: URlImageModel
+	var amiibos = ReleaseDateModel(amiibo: amiibo1)
 	@State private  var searchTerm = ""
 	
 	init(urlString: String? ,amiibos: ReleaseDateModel) {

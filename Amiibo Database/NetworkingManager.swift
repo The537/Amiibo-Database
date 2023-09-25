@@ -10,9 +10,9 @@ import Foundation
 import SwiftUI
 import Combine
 
-final class NetworkingManager: ObservableObject   {
+@Observable final class NetworkingManager{
 	
-	@Published var  amiiboList = AmiiboAPIList( amiibo:[])
+	var  amiiboList = AmiiboAPIList( amiibo:[])
 }
 
 extension NetworkingManager {

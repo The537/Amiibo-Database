@@ -9,20 +9,20 @@
 import SwiftUI
 
 struct CardView: View {
-		@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
-		@ObservedObject var urlImageModel: URlImageModel
-		@ObservedObject var amiibos = ReleaseDateModel(amiibo: amiibo1)
-		@State private  var searchTerm = ""
+	var networkingManager: NetworkingManager = NetworkingManager()
+	var urlImageModel: URlImageModel
+	var amiibos = ReleaseDateModel(amiibo: amiibo1)
+	@State private  var searchTerm = ""
 	
-	 	init(urlString: String? ,amiibos: ReleaseDateModel) {
-			urlImageModel = URlImageModel(urlString: urlString)
-			self.amiibos = amiibos
-			self.urlImageModel = URlImageModel(urlString: urlString)
-			UISegmentedControl.appearance().selectedSegmentTintColor = .systemGreen
-			UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
-			UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.systemGreen], for: .normal)
-			
-		}
+	init(urlString: String? ,amiibos: ReleaseDateModel) {
+		urlImageModel = URlImageModel(urlString: urlString)
+		self.amiibos = amiibos
+		self.urlImageModel = URlImageModel(urlString: urlString)
+		UISegmentedControl.appearance().selectedSegmentTintColor = .systemGreen
+		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
+		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.systemGreen], for: .normal)
+		
+	}
 		
 		var body: some View {
 			

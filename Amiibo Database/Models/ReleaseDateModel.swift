@@ -10,12 +10,13 @@ import Foundation
 import UIKit
 import SwiftUI
 import Combine
+import Observation
 
-final class ReleaseDateModel: ObservableObject, Identifiable {
+@Observable class ReleaseDateModel: ObservableObject, Identifiable {
 	let amiibos: AmiiboListEntry
 	
-	@ObservedObject var networkingManager: NetworkingManager = NetworkingManager()
-	@Published var image: Image = Image("Mario")
+	 var networkingManager: NetworkingManager = NetworkingManager()
+	 var image: Image = Image("Mario")
 	
 	init(amiibo: AmiiboListEntry) {
 		self.amiibos = amiibo
