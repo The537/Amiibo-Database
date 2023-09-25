@@ -23,84 +23,106 @@ struct CardView: View {
 		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.systemGreen], for: .normal)
 		
 	}
+	
+	var body: some View {
 		
-		var body: some View {
+		NavigationView {
 			
-			NavigationView {
+			VStack  {
 				
-				VStack  {
+				VStack {
 					
+					List(filteredAmiibo, id: \.tail ) { amiibos in
+						NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
+							
+							HStack {
+								
+								UrlImageView(urlString: amiibos.image)
+								HStack(alignment: .center) {
+									VStack(alignment: .trailing) {
+										Text("Amiibo Series:")
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										Text("Game Series:")
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										Text("Character:")
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										Text("Type:")
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										
+									}
+									
+									VStack(alignment: .leading) {
+										Text (amiibos.amiiboSeries)
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										Text(amiibos.gameSeries)
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										Text(amiibos.character)
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										Text(amiibos.type)
+											.font(.custom( "SuperMarioGalaxy", size: 8))
+											.fontWeight(.heavy)
+										
+									}
+								}
+							}
+						}
+					}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 					Divider()
 					Text("Number of Cards = \(filteredAmiibo.count)")
 						.fontWeight(.heavy)
 					Divider()
-					
-					VStack {
-						
-						List(filteredAmiibo, id: \.tail ) { amiibos in
-							NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
-								
-								HStack {
-									
-									UrlImageView(urlString: amiibos.image)
-									HStack(alignment: .center) {
-										VStack(alignment: .trailing) {
-											Text("Amiibo Series:")
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												 .fontWeight(.heavy)
-											Text("Game Series:")
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-											Text("Character:")
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-											Text("Type:")
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-											
-										}
-										
-										VStack(alignment: .leading) {
-											Text (amiibos.amiiboSeries)
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-											Text(amiibos.gameSeries)
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-											Text(amiibos.character)
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-											Text(amiibos.type)
-												.font(.custom( "SuperMarioGalaxy", size: 8))
-												.fontWeight(.heavy)
-		
-										}
-									}
-								}
-							}
-						}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
 						.id(UUID())
-					}.listStyle(InsetGroupedListStyle()) 
-				}.navigationBarColor(.systemYellow)
-			}.onAppear( perform: networkingManager.loadCards)
-				.animation(.default , value: searchTerm)
-				.searchable(text: $searchTerm, placement: .navigationBarDrawer(displayMode: .automatic),prompt: "Filter by Character:" )
-				
+						.animation(.default , value: searchTerm)
+						.searchable(text: $searchTerm, prompt: "Filter by Character:")
+				}.listStyle(InsetGroupedListStyle())
+			}.navigationBarColor(.systemYellow)
+			
+				.task {
+					do {
+						
+						networkingManager.amiiboList = try await networkingManager.loadCards()
+						
+					} catch AmiiboError.invalidURL {
+						print("Invalid URL")
+					} catch AmiiboError.invalidResponse {
+						print ("Invalid Response")
+					} catch AmiiboError.invalidData {
+						print ("Invalid Data")
+					} catch {
+						print ("Unexpected Error")
+					}
+				}
+	
 		}
-	var filteredAmiibo: [AmiiboListEntry] {
-		if searchTerm.isEmpty {
-			return networkingManager.amiiboList.amiibo
-		} else {
-			return networkingManager.amiiboList.amiibo.filter {
-				$0.character.localizedCaseInsensitiveContains(searchTerm) }
-
+		var filteredAmiibo: [AmiiboListEntry] {
+			if searchTerm.isEmpty {
+				return networkingManager.amiiboList.amiibo
+			} else {
+				return networkingManager.amiiboList.amiibo.filter {
+					$0.character.localizedCaseInsensitiveContains(searchTerm) }
+				
 			}
 			
 		}
 	}
-
-struct CardView_Previews: PreviewProvider {
-    static var previews: some View {
-        CardView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
-    }
+	
+	struct CardView_Previews: PreviewProvider {
+		static var previews: some View {
+			CardView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
+		}
+	}
+	
+	enum AmiiboError: Error {
+		case invalidURL
+		case invalidResponse
+		case invalidData
+	}
 }
+

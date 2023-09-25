@@ -12,7 +12,7 @@ struct FigureView: View {
 	var networkingManager: NetworkingManager = NetworkingManager()
 	var urlImageModel: URlImageModel
 	var amiibos = ReleaseDateModel(amiibo: amiibo1)
-	@State private  var searchTerm = ""
+	@State private var searchTerm = ""
 	
 	init(urlString: String? ,amiibos: ReleaseDateModel) {
 		urlImageModel = URlImageModel(urlString: urlString)
@@ -21,7 +21,6 @@ struct FigureView: View {
 		UISegmentedControl.appearance().selectedSegmentTintColor = .systemGreen
 		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
 		UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.systemGreen], for: .normal)
-		UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "SuperMarioGalaxy", size: 20)!]
 	}
 	
 	var body: some View {
@@ -30,18 +29,13 @@ struct FigureView: View {
 			
 			VStack  {
 				
-				Divider()
-				Text("Number of Figures = \(filteredAmiibo.count)")
-					.fontWeight(.heavy)
-				Divider()
-				
 				VStack {
 					
 					List(filteredAmiibo , id: \.tail ) { amiibos in
 						NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
 							
 							HStack {
-
+								
 								UrlImageView(urlString: amiibos.image)
 								HStack(alignment: .center) {
 									VStack(alignment: .trailing) {
@@ -57,9 +51,9 @@ struct FigureView: View {
 										Text("Type:")
 											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
-
+										
 									}
-
+									
 									VStack(alignment: .leading) {
 										Text (amiibos.amiiboSeries)
 											.font(.custom( "SuperMarioGalaxy", size: 8))
@@ -73,42 +67,63 @@ struct FigureView: View {
 										Text(amiibos.type)
 											.font(.custom( "SuperMarioGalaxy", size: 8))
 											.fontWeight(.heavy)
-
+										
 									}
 								}
 							}
 						}
 					}.navigationBarTitle("Amiibo Database",displayMode:  .inline )
+									Divider()
+									Text("Number of Figures = \(filteredAmiibo.count)")
+										.fontWeight(.heavy)
+									Divider()
 						.id(UUID())
 						.animation(.default , value: searchTerm)
-						.searchable(text: $searchTerm,prompt: "Filter by Character:")
+						.searchable(text: $searchTerm, prompt: "Filter by Character:")
 				}.listStyle(InsetGroupedListStyle())
-				
-			}.navigationBarColor(.systemGreen)
+			}.navigationBarColor(.systemRed)
 			
-			
-			
-		}.onAppear( perform: networkingManager.loadFigures)
-	
-		
-	}
-	
-	var filteredAmiibo: [AmiiboListEntry] {
-		if searchTerm.isEmpty {
-			return networkingManager.amiiboList.amiibo
-		} else {
-			return networkingManager.amiiboList.amiibo.filter {
-				$0.character.localizedCaseInsensitiveContains(searchTerm) }
+				.task {
+					do {
+						
+					networkingManager.amiiboList = try await networkingManager.loadFigures()
+						
+					} catch AmiiboError.invalidURL {
+						print("Invalid URL")
+					} catch AmiiboError.invalidResponse {
+						print ("Invalid Response")
+					} catch AmiiboError.invalidData {
+						print ("Invalid Data")
+					} catch {
+						print ("Unexpected Error")
+					}
+				}
 
+		}
+		
+		var filteredAmiibo: [AmiiboListEntry] {
+			if searchTerm.isEmpty {
+				return networkingManager.amiiboList.amiibo
+			} else {
+				return networkingManager.amiiboList.amiibo.filter {
+					$0.character.localizedCaseInsensitiveContains(searchTerm) }
+				
 			}
 			
 		}
-	
-}
-struct FigureView_Previews: PreviewProvider {
-	static var previews: some View {
-		FigureView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
 		
 	}
+	struct FigureView_Previews: PreviewProvider {
+		static var previews: some View {
+			FigureView(urlString: nil ,amiibos: ReleaseDateModel(amiibo: amiibo1))
+		}
+	}
+	enum AmiiboError: Error {
+		case invalidURL
+		case invalidResponse
+		case invalidData
+	}
+	
 }
+
 
