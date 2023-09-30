@@ -32,7 +32,7 @@ struct YarnView: View {
 
 				VStack {
 					
-					List(networkingManager.amiiboList.amiibo, id: \.tail ) { amiibos in
+					List(filteredAmiibo, id: \.tail ) { amiibos in
 						NavigationLink(destination: AmiiboDetailView(urlString: amiibos.image, amiibos: ReleaseDateModel(amiibo: amiibos))) {
 							
 							HStack {

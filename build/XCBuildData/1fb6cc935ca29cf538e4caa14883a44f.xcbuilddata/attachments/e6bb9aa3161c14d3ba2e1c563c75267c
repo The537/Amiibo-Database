@@ -1,0 +1,168 @@
+{
+  "" : {
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master.dia",
+    "emit-module-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master-emit-module.dia",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Amiibo Database-master.swiftdeps"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/AppDelegate.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Constants/Constants.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Constants~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/AmiiboAPIList.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboAPIList~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/ReleaseDateModel.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseDateModel~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/Test.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/Test~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Models/URLImageModel.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLImageModel~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/NetworkingManager.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/NetworkingManager~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/SceneDelegate.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/AmiiboDetailView.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/AmiiboDetailView~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/CardView.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/CardView~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/ContentView.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/FigureView.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/FigureView~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/ReleaseSchedule.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/ReleaseSchedule~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/URLimageView.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/URLimageView~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/Amiibo Database/Views/YarnView.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/YarnView~partial.swiftmodule"
+  },
+  "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/lrlariz/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Les’s iMac/Code/Amiibo Database/build/Amiibo Database.build/Debug-iphoneos/Amiibo Database.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
