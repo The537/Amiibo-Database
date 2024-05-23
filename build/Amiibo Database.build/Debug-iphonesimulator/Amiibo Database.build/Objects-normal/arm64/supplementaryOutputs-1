@@ -1,0 +1,18 @@
+"/Users/lrlariz/Amiibo Database/Amiibo Database/Views/FigureView.swift":
+  const-values: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.swiftconstvalues"
+  object: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.o"
+  diagnostics: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.dia"
+  swift-dependencies: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.swiftdeps"
+  dependencies: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/FigureView.d"
+"/Users/lrlariz/Amiibo Database/Amiibo Database/Views/YarnView.swift":
+  const-values: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.swiftconstvalues"
+  swift-dependencies: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.swiftdeps"
+  object: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.o"
+  dependencies: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.d"
+  diagnostics: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/YarnView.dia"
+"/Users/lrlariz/Amiibo Database/Amiibo Database/AppDelegate.swift":
+  object: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.o"
+  dependencies: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.d"
+  const-values: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.swiftconstvalues"
+  swift-dependencies: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  diagnostics: "/Users/lrlariz/Amiibo Database/build/Amiibo Database.build/Debug-iphonesimulator/Amiibo Database.build/Objects-normal/arm64/AppDelegate.dia"
